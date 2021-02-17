@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'Proxima Nova Regular';
+    src: url('../fonts/ProximaNova-Regular.eot');
+    src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProximaNova-Regular.woff') format('woff'),
+    url('../fonts/ProximaNova-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Proxima Nova Regular';
+}
+
+.section {
+    display: flex;
+    padding-top: 400px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1100px;
+}
+
+.article {
+    display: block;
+    width: 220px;
+    padding-top: 20px;
+    margin-right: 100px;
+}
+
+.icon {
+        /* Style for "Shape 189" */
+    width: 65px;
+    height: 65px;
+    margin: 0 auto 20px;
+    border: 2px solid #2a69a6;
+    border-radius: 50%;
+    background-color: #2a69a6;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.icon:hover {
+    background-color: #ffffff;
+}
+
+.icon1 {
+    background-image: url(../img/tablet-white.svg);
+    }
+.icon1:hover {
+        background-image: url(../img/tablet-blue.svg);
+        }
+
+.icon2 {
+    background-image: url(../img/settings.svg);
+}
+
+.icon2:hover {
+    background-image: url(../img/settings-blue.svg);
+}
+
+.icon3 {
+    background-image: url(../img/dashboard.svg);
+}
+
+.icon3:hover {
+    background-image: url(../img/dashboard-blue.svg);
+}
+
+h2 {
+        /* Style for "Responsive" */
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+        /* Text style for "Responsive" */
+    letter-spacing: 0.35px;
+    line-height: normal;
+    margin-bottom: 22px;
+}
+
+p {
+        /* Style for "Etiam sagi" */
+    color: #9d9d9d;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+        /* Text style for "E, tiam sa" */
+    letter-spacing: 0.35px;
+    line-height: normal;
+    margin-bottom: 30px;
+}
